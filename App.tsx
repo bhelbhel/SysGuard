@@ -1,5 +1,5 @@
 
-import React, { useState, useMemo, useRef, useEffect } from 'react';
+/*import React, { useState, useMemo, useRef, useEffect } from 'react';
 import Layout from './components/Layout';
 import { 
   RiskLevel, 
@@ -259,7 +259,7 @@ const App: React.FC = () => {
   /**
    * Professional Terminal-Style Live Monitor
    */
-  const renderLiveView = () => (
+  /*const renderLiveView = () => (
     <div className="space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-500">
       <div className="flex justify-between items-end">
         <div>
@@ -360,7 +360,7 @@ const App: React.FC = () => {
   /**
    * Results Dashboard
    */
-  const renderDashboardView = () => {
+  /*const renderDashboardView = () => {
     if (result) {
       const isIntrusion = result.status === 'INTRUSION';
       const peakDeviation = Math.max(...result.syscalls.map(s => s.deviation));
@@ -447,7 +447,7 @@ const App: React.FC = () => {
   /**
    * Enhanced Settings View with Alert Throttling
    */
-  const renderSettingsView = () => (
+  /*const renderSettingsView = () => (
     <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
        <div className="flex justify-between items-center mb-8">
           <div><h2 className="text-3xl font-black text-white uppercase tracking-tight">Configuration Console</h2><p className="text-slate-500 text-sm">Global thresholding and sensor tuning</p></div>
@@ -455,7 +455,7 @@ const App: React.FC = () => {
        
        <div className="grid md:grid-cols-2 gap-8">
           {/* DETECTION SETTINGS */}
-          <div className="bg-slate-900 border border-slate-800 rounded-[32px] p-10 space-y-8 shadow-xl">
+          /*<div className="bg-slate-900 border border-slate-800 rounded-[32px] p-10 space-y-8 shadow-xl">
              <div className="flex items-center gap-4"><div className="p-2 bg-orange-500/10 rounded-xl"><Gauge className="w-6 h-6 text-orange-400" /></div><h3 className="text-sm font-black uppercase tracking-[0.2em] text-white">Detection Delta</h3></div>
              <div className="space-y-8">
                 <div className="space-y-4">
@@ -470,7 +470,7 @@ const App: React.FC = () => {
           </div>
 
           {/* ALERT THROTTLING */}
-          <div className="bg-slate-900 border border-slate-800 rounded-[32px] p-10 space-y-8 shadow-xl">
+        /*  <div className="bg-slate-900 border border-slate-800 rounded-[32px] p-10 space-y-8 shadow-xl">
              <div className="flex items-center gap-4"><div className="p-2 bg-sky-500/10 rounded-xl"><Timer className="w-6 h-6 text-sky-400" /></div><h3 className="text-sm font-black uppercase tracking-[0.2em] text-white">Alert Throttling</h3></div>
              <div className="space-y-8">
                 <div className="space-y-4">
@@ -671,6 +671,16 @@ const App: React.FC = () => {
       )}
     </Layout>
   );
-};
+};*/
+
+function App() {
+  return (
+    <div style={{ padding: "40px", fontSize: "24px" }}>
+      SysGuard is LIVE 🚀
+    </div>
+  );
+}
 
 export default App;
+
+
